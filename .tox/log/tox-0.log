@@ -1,0 +1,50 @@
+actionid=tox
+msg=packaging
+cmdargs=['/Users/esperyong/Develop/pyprojects/hwbuluo-gis/venv/bin/python', local('/Users/esperyong/Develop/pyprojects/hwbuluo-gis/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/Users/esperyong/Develop/pyprojects/hwbuluo-gis/.tox/dist')]
+env=None
+running sdist
+running egg_info
+writing requirements to hwbuluo_gis.egg-info/requires.txt
+writing hwbuluo_gis.egg-info/PKG-INFO
+writing top-level names to hwbuluo_gis.egg-info/top_level.txt
+writing dependency_links to hwbuluo_gis.egg-info/dependency_links.txt
+reading manifest file 'hwbuluo_gis.egg-info/SOURCES.txt'
+writing manifest file 'hwbuluo_gis.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+creating hwbuluo-gis-0.0.1
+creating hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info
+creating hwbuluo-gis-0.0.1/hwbuluocontrib
+creating hwbuluo-gis-0.0.1/hwbuluocontrib/gis
+creating hwbuluo-gis-0.0.1/hwbuluocontrib/gis/coordinatetransform
+making hard links in hwbuluo-gis-0.0.1...
+hard linking setup.py -> hwbuluo-gis-0.0.1
+hard linking hwbuluo_gis.egg-info/PKG-INFO -> hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info
+hard linking hwbuluo_gis.egg-info/SOURCES.txt -> hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info
+hard linking hwbuluo_gis.egg-info/dependency_links.txt -> hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info
+hard linking hwbuluo_gis.egg-info/not-zip-safe -> hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info
+hard linking hwbuluo_gis.egg-info/requires.txt -> hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info
+hard linking hwbuluo_gis.egg-info/top_level.txt -> hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info
+hard linking hwbuluocontrib/__init__.py -> hwbuluo-gis-0.0.1/hwbuluocontrib
+hard linking hwbuluocontrib/gis/__init__.py -> hwbuluo-gis-0.0.1/hwbuluocontrib/gis
+hard linking hwbuluocontrib/gis/caldistance.py -> hwbuluo-gis-0.0.1/hwbuluocontrib/gis
+hard linking hwbuluocontrib/gis/coordinatetransform/__init__.py -> hwbuluo-gis-0.0.1/hwbuluocontrib/gis/coordinatetransform
+hard linking hwbuluocontrib/gis/coordinatetransform/wgstochina.py -> hwbuluo-gis-0.0.1/hwbuluocontrib/gis/coordinatetransform
+Writing hwbuluo-gis-0.0.1/setup.cfg
+creating '.tox/dist/hwbuluo-gis-0.0.1.zip' and adding 'hwbuluo-gis-0.0.1' to it
+adding 'hwbuluo-gis-0.0.1/PKG-INFO'
+adding 'hwbuluo-gis-0.0.1/setup.cfg'
+adding 'hwbuluo-gis-0.0.1/setup.py'
+adding 'hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info/dependency_links.txt'
+adding 'hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info/not-zip-safe'
+adding 'hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info/PKG-INFO'
+adding 'hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info/requires.txt'
+adding 'hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info/SOURCES.txt'
+adding 'hwbuluo-gis-0.0.1/hwbuluo_gis.egg-info/top_level.txt'
+adding 'hwbuluo-gis-0.0.1/hwbuluocontrib/__init__.py'
+adding 'hwbuluo-gis-0.0.1/hwbuluocontrib/gis/__init__.py'
+adding 'hwbuluo-gis-0.0.1/hwbuluocontrib/gis/caldistance.py'
+adding 'hwbuluo-gis-0.0.1/hwbuluocontrib/gis/coordinatetransform/__init__.py'
+adding 'hwbuluo-gis-0.0.1/hwbuluocontrib/gis/coordinatetransform/wgstochina.py'
+removing 'hwbuluo-gis-0.0.1' (and everything under it)

@@ -2,14 +2,19 @@ from __future__ import absolute_import
 from setuptools import setup, find_packages
 import hwbuluocontrib.gis as gis
 import sys
+import os
 
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+
+#readme_file = os.path.join(PROJECT_ROOT,'README.mkd')
 readme_file = 'README.mkd'
 try:
     long_description = open(readme_file).read()
 except IOError:
     sys.stderr.write("[ERROR] Cannot find file specified as "
         "``long_description`` (%s)\n" % readme_file)
-    sys.exit(1)
+    long_description = '' 
+    #sys.exit(1)
 
 setup(name='hwbuluo-gis',
       version=gis.get_version(),
