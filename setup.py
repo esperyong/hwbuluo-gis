@@ -23,7 +23,7 @@ setup(name='hwbuluo-gis',
       packages = find_packages(exclude=['demo', 'demo.*']),
       include_package_data=True,
       install_requires = [
-        'git+https://github.com/tkrajina/gpxpy.git',
+        'gpxpy',
         'lxml>=3.3.5',
         ### Required to build documentation
         # 'sphinx',
