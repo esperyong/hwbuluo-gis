@@ -1,7 +1,7 @@
 from __future__ import absolute_import
 from setuptools import setup, find_packages
+import hwbuluocontrib.gis as gis
 import sys
-import hwbuluo.contrib.gis as gis
 
 readme_file = 'README.mkd'
 try:
