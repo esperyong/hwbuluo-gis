@@ -1,0 +1,4 @@
+gpxpy==0.9.8
+lxml==3.3.5
+wsgiref==0.1.2
+yolk==0.4.3
