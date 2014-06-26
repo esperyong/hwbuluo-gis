@@ -25,6 +25,7 @@ setup(name='hwbuluo-gis',
       install_requires = [
         'gpxpy',
         'lxml>=3.3.5',
+        'requests',
         ### Required to build documentation
         # 'sphinx',
         # 'south',
