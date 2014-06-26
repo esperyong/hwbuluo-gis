@@ -32,4 +32,5 @@ indexdir/
 *.sqlite3
 *.db
 media/
+.tox/
 
