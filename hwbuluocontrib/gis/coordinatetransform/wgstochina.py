@@ -2,7 +2,7 @@ import math
 
 a = 6378245.0
 ee = 0.00669342162296594323
-pi = 3.14159265358979324
+pi = 3.14159265358979323
 
 def out_of_china(lat,lon):
     if lon < 72.004 or lon > 137.8347:
@@ -49,4 +49,8 @@ def gcj2wgs(chnlat,chnlon):
     wgslon = chnlon - (lon - chnlon);
     return (wgslat,wgslon)
 
+
+
+#x_add = x_add + h_add * 0.001 + yj_sin2(wg_time * 0.0174532925199433) + random_yj();  
+#y_add = y_add + h_add * 0.001 + yj_sin2(wg_time * 0.0174532925199433) + random_yj(); 
 
