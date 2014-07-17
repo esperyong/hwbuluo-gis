@@ -9,12 +9,9 @@ def simple_pointset_togeojson(queryset,properties):
     
     """
     result = {"type": "FeatureCollection","features":[]}
-    if queryset and queryset.count() != 0:
-        for instance in queryset:
-            for field_name in properties:
-                field_value = getattr(instance,field_name,'')
-    features = [ {'type':'Feature',
-                  "geometry": {
+    if queryset:
+        features = [ {'type':'Feature',
+                      "geometry": {
                       "type": "Point",
                       "coordinates": [getattr(instance.point,i) 
                                for i in ('x','y','z') if getattr(instance.point,i)]
