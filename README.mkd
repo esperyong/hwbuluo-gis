@@ -10,3 +10,8 @@ Complete documentation about the
 [F.A.Q.](#) is available on
 [Read the Docs](#).
 
+1. >> pip install virtualenv
+2. >> virtualenv --distribute venv
+3. >> source venv/bin/activate
+4. >> pip install -r requirements-test.txt
+5. 
